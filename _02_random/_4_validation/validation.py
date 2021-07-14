@@ -7,6 +7,21 @@ if __name__ == '__main__':
 
     random_number = random.randint(1, 5)
 
+    if random_number == 1:
+        print("You look great today!")
+
+    if random_number == 2:
+        print("On a scale of 1-10, you would be a 11")
+
+    if random_number == 3:
+        print("Being around you makes everything better!")
+
+    if random_number == 4:
+        print("")
+
+    if random_number == 5:
+        print("")
+
     print(random_number)
 
     # TODO 1) Use each value of random_number to give the user a random compliment

@@ -9,12 +9,14 @@ if __name__ == '__main__':
     #   end = upper bound of random number
 
     # Prints out 5 random whole numbers between 0 and 100 (0 and 100 both included)
-    for i in range(5):
-        number = random.randint(0, 100)
-        print(number)
+    #for i in range(5):
+       # number = random.randint(0, 100)
+        #print(number)
 
     # TODO Print out 5 random numbers between -50 and 5
     for i in range(5):
+        thing = random.randint(-50,5)
+        print(thing)
 
         pass
 
