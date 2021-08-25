@@ -1,11 +1,14 @@
 import random
 import sys
 from tkinter import messagebox, Tk
-from playsound import playsound
 
 
 def crack_the_safe():
     pass
+
+    for x in range(999999):
+        try_code(x)
+
     # TODO: Your mission: Use the try_code method to crack the safe
     #  by trying all possible combinations
 
