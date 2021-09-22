@@ -49,7 +49,10 @@ def mousePressed():
     # less than the radius of the ellipse. If it is, set new values for
     # x AND y for the ellipse, for a new random location on the window
     # Hint: Use code like this, x = random(width)
-    if distance <
+    if distance < a:
+        x = random(width)
+        y = random(height)
+    
 
     
 # ========  This function gives you the number of pixels between =========
